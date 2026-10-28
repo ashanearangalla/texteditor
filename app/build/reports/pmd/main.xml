@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 https://pmd.github.io/schema/report_2_0_0.xsd" version="7.26.0" timestamp="2026-10-28T14:41:08.277">
+<file name="D:\Curtin\sae\assesment\texteditor\app\src\main\java\edu\curtin\texteditor\FileIO.java">
+<violation beginline="36" endline="36" begincolumn="19" endcolumn="44" rule="AssignmentInOperand" ruleset="Error Prone" package="edu.curtin.texteditor" class="FileIO" method="load" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#assignmentinoperand" priority="3">
+Avoid assignment to count in operand
+</violation>
+<violation beginline="45" endline="45" begincolumn="15" endcolumn="24" rule="AvoidCatchingGenericException" ruleset="Error Prone" package="edu.curtin.texteditor" class="FileIO" method="load" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#avoidcatchinggenericexception" priority="3">
+Avoid catching Exception in try-catch block
+</violation>
+</file>
+<file name="D:\Curtin\sae\assesment\texteditor\app\src\main\java\edu\curtin\texteditor\KeymapException.java">
+<violation beginline="3" endline="3" begincolumn="14" endcolumn="29" rule="MissingSerialVersionUID" ruleset="Error Prone" package="edu.curtin.texteditor" class="KeymapException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="D:\Curtin\sae\assesment\texteditor\app\src\main\java\edu\curtin\texteditor\MainUI.java">
+<violation beginline="110" endline="110" begincolumn="33" endcolumn="35" rule="AvoidLiteralsInIfCondition" ruleset="Error Prone" package="edu.curtin.texteditor" class="MainUI" method="display" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition" priority="3">
+Avoid using literals such as 12 in if statements
+</violation>
+<violation beginline="123" endline="123" begincolumn="20" endcolumn="70" rule="UnnecessaryCaseChange" ruleset="Error Prone" package="edu.curtin.texteditor" class="MainUI" method="display" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#unnecessarycasechange" priority="3">
+Using equalsIgnoreCase() is cleaner than using toUpperCase/toLowerCase().equals().
+</violation>
+</file>
+<file name="D:\Curtin\sae\assesment\texteditor\app\src\main\java\edu\curtin\texteditor\PluginException.java">
+<violation beginline="3" endline="3" begincolumn="14" endcolumn="29" rule="MissingSerialVersionUID" ruleset="Error Prone" package="edu.curtin.texteditor" class="PluginException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+<file name="D:\Curtin\sae\assesment\texteditor\app\src\main\java\edu\curtin\texteditor\PluginManager.java">
+<violation beginline="45" endline="45" begincolumn="35" endcolumn="39" rule="NullAssignment" ruleset="Error Prone" package="edu.curtin.texteditor" class="PluginManager" method="loadPlugin" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#nullassignment" priority="3">
+Assigning an Object to null is a code smell.  Consider refactoring.
+</violation>
+<violation beginline="68" endline="68" begincolumn="25" endcolumn="36" rule="CloseResource" ruleset="Error Prone" package="edu.curtin.texteditor" class="PluginManager" method="loadPlugin" variable="classLoader" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#closeresource" priority="3">
+Ensure that resources like this URLClassLoader object are closed after use
+</violation>
+<violation beginline="70" endline="70" begincolumn="17" endcolumn="53" rule="UseProperClassLoader" ruleset="Error Prone" package="edu.curtin.texteditor" class="PluginManager" method="loadPlugin" variable="classLoader" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#useproperclassloader" priority="3">
+In J2EE, getClassLoader() might not work as expected.  Use Thread.currentThread().getContextClassLoader() instead.
+</violation>
+</file>
+<file name="D:\Curtin\sae\assesment\texteditor\app\src\main\java\edu\curtin\texteditor\TextEditorApp.java">
+<violation beginline="44" endline="44" begincolumn="13" endcolumn="27" rule="DoNotTerminateVM" ruleset="Error Prone" package="edu.curtin.texteditor" class="TextEditorApp" method="start" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#donotterminatevm" priority="3">
+System.exit() should not be used in J2EE/JEE apps
+</violation>
+</file>
+<file name="D:\Curtin\sae\assesment\texteditor\app\src\main\java\edu\curtin\texteditor\TextStringException.java">
+<violation beginline="7" endline="7" begincolumn="14" endcolumn="33" rule="MissingSerialVersionUID" ruleset="Error Prone" package="edu.curtin.texteditor" class="TextStringException" externalInfoUrl="https://docs.pmd-code.org/pmd-doc-7.26.0/pmd_rules_java_errorprone.html#missingserialversionuid" priority="3">
+Classes implementing Serializable should set a serialVersionUID
+</violation>
+</file>
+</pmd>
